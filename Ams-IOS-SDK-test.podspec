@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ams-IOS-SDK-test'
-  s.version          = ' 1.0'
-  s.summary          = 'A short description of Ams-IOS-SDK-test.'
+  s.version          = ' 1.1'
+  s.summary          = 'Ant Media Server iOS SDK.'
   s.swift_version = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+It is a library to use Ant Media Server iOS SDK.
                        DESC
 
   s.homepage         = 'https://github.com/USAMAWIZARD/Ams-IOS-SDK-test'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/USAMAWIZARD/Ams-IOS-SDK-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'AntMediaReferenceApplication/Util/Extension/*'
   
