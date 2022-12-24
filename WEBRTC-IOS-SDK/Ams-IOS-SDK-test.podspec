@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ams-IOS-SDK-test'
-  s.version          = '1.0'
+  s.version          = ' 0.1.2'
   s.summary          = 'A short description of Ams-IOS-SDK-test.'
-
+  s.swift_version = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'WEBRTC-IOS-SDK/Classes/**/*'
+  s.source_files = 'AntMediaReferenceApplication/Util/Extension/*'
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
